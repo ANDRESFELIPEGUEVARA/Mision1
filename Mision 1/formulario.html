@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulario</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body class="bg-dark">
+
+    <div class="container-fluid">
+        <header>
+            <h1 class="text-white text-center">Dejanos aca tus comentarios </h1>
+        </header>
+        <main>
+            <form action="">
+                <div class="py-5">
+                    <div class="row">
+                        <div class="col-6 text-white">
+                            <label class="form-label">Nombre</label>
+                            <input placeholder="Andres" type="text" name="nombre" maxlength="50" minlength="5"
+                                class="form-control">
+                        </div>
+                        <div class="col-6 text-white">
+                            <label class="form-label">Email</label>
+                            <input placeholder="123@gmail.com" type="email" name="email" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-6 text-white">
+                            <label class="form-label">Ciudad</label>
+                            <select class="form-control">
+                                <option value="">Escoje tu ciudad</option>
+                                <option value="">Ocaña</option>
+                                <option value="">Cucuta</option>
+                                <option value="">Bucaramanga</option>
+                                <option value="">Medellin</option>
+                            </select>
+                        </div>
+                        <div class="col-6 text-white">
+                            <label class="form-label">Hora</label>
+                            <input placeholder="Hora" type="time" name="hora" class="form-control">
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-12 text-center py-3">
+
+                            <label class="form-label  text-white">Dejanos tu comentario</label>
+                            <textarea class="form-control" id=""></textarea>
+                        </div>
+                    </div>
+
+                    <div class="text-center py-5">
+                        <button type="submit" class="btn btn-danger">Enviar</button>
+                        <button type="reset" class="btn btn-primary">limpiar</button>
+                    </div>
+
+
+                </div>
+            </form>
+
+
+
+        </main>
+        <footer>
+            <p class="text-white text-center">&copy;2025 todos los derechos reservados</p>
+        </footer>
+    </div>
+
+</body>
+
+</html>

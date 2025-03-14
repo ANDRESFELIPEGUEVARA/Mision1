@@ -1,0 +1,44 @@
+*{
+    padding: 0;
+    margin: 0;
+    scrollbar-color: rgb(17, 239, 255) rgb(204, 0, 255);
+    scrollbar-width: thin;
+}
+
+
+.acomodar{
+    display: flex;
+    justify-content: center;  
+    position: fixed;
+    text-align: center;
+    z-index: 1000;
+    bottom: 0;
+    padding: 150px;
+    width: 100%;
+}
+
+img{
+    width: 100%;
+}
+.separacion{
+    padding-top: 30px ;
+    padding-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    position: fixed;
+    z-index: 1000;
+    bottom: 0;
+    width: 100%;
+    justify-content: center;
+    
+}
+.video{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    height: 850px;
+    
+}
+
